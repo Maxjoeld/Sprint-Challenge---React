@@ -5,7 +5,7 @@ import './StarData.css';
 const StarData = (props) => {
   return (
     <li className='details'>
-    <h1>This is the star wars branch</h1>
+      <h1>This is the star wars branch</h1>
       <li>Name: {props.details.name}</li>
       <li>Height: {props.details.height}</li>
       <li>Eye Color: {props.details.eye_color}</li>
